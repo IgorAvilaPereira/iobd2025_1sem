@@ -26,7 +26,7 @@ for d in ./*; do
     			echo "[$d2](https://github.com/IgorAvilaPereira/"$repositorio"/blob/main/$d/$d2) <br>" >> "./../../"$repositorio".wiki/Home.md"					
 #            else
 #
-#			fi
+			fi
 		done
 
 		# subdiretorios internos de cada aula

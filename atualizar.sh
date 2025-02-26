@@ -25,7 +25,8 @@ for d in ./*; do
 	    		# se n tiver wiki, favor comentar
     			echo "[$d2](https://github.com/IgorAvilaPereira/"$repositorio"/blob/main/$d/$d2) <br>" >> "./../../"$repositorio".wiki/Home.md"					
             else
-                 mapfile < "README.md" && echo "${MAPFILE[@]}" >> "./../README.md"		
+                 cat "README.md" >> "./../README.md"
+                 cat "README.md" >> "./../../"$repositorio".wiki/Home.md"							
 			fi
 		done
 

@@ -16,5 +16,4 @@
 [sql2.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./slides_importantes/sql2.pdf) <br>
 [transformacao-er-modelo-relacional.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./slides_importantes/transformacao-er-modelo-relacional.pdf) <br>
 ## [./teste_jdbc](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./teste_jdbc) <br>
-[*.*](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./teste_jdbc/*.*) <br>
 [teste_jdbc](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./teste_jdbc/teste_jdbc) <br>

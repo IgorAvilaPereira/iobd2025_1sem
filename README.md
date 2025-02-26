@@ -1,16 +1,7 @@
 # iobd2025_1sem <br>
 ## [./1_introducao](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./1_introducao) <br>
+[1_introducao.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./1_introducao/1_introducao.md) <br>
 [chuva.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./1_introducao/chuva.sql) <br>
-# 1_introducao 
-
-* Revisão de PMBD
-
-* Introdução - Join's
-
-* Introdução - Group by
-
-* Exemplo básico de Conectividade Java - PostgreSQL
-
 [sql1.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./1_introducao/sql1.pdf) <br>
 [sql2.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./1_introducao/sql2.pdf) <br>
 [teste_jdbc](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./1_introducao/teste_jdbc) <br>

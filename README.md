@@ -5,6 +5,8 @@
 [sql1.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./1_introducao/sql1.pdf) <br>
 [sql2.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./1_introducao/sql2.pdf) <br>
 [teste_jdbc](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./1_introducao/teste_jdbc) <br>
+## [./2_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./2_aula) <br>
+&nbsp;
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
 [dicas.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./dicas/dicas.md) <br>
 ## [./setup](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./setup) <br>

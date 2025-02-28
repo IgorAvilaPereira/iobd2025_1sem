@@ -7,7 +7,6 @@
 [teste_jdbc](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./1_introducao/teste_jdbc) <br>
 ## [./2_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./2_aula) <br>
 [lista1.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./2_aula/lista1.md) <br>
-&nbsp;
 [spotify_pobre.dia](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./2_aula/spotify_pobre.dia) <br>
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
 [dicas.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./dicas/dicas.md) <br>

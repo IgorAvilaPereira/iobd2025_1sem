@@ -9,6 +9,9 @@
 [lista1.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./2_aula/lista1.md) <br>
 [spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./2_aula/spotify_limitado.sql) <br>
 [spotify_pobre.dia](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./2_aula/spotify_pobre.dia) <br>
+## [./3_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./3_aula) <br>
+[lista2.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./3_aula/lista2.md) <br>
+[lista2.png](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./3_aula/lista2.png) <br>
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
 [dicas.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./dicas/dicas.md) <br>
 ## [./setup](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./setup) <br>

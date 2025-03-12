@@ -127,4 +127,10 @@ SELECT
 select titulo, data_lancamento from album where extract(year from data_lancamento) = 2023;
 
 
+-- Retorne o nome das playlists que foram criadas hoje
+SELECT usuario.nome,  playlist.nome from usuario inner join playlist on (usuario.id = playlist.usuario_id) where cast(data_hora as date) = current_date;
+
+SELECT usuario.nome,  playlist.nome from usuario inner join playlist on (usuario.id = playlist.usuario_id) where data_hora::date = current_date;
+
+-- Atualize todos os nomes dos artistas (nome e nome_artistico) para maiúsculo
 

@@ -12,6 +12,7 @@
 ## [./3_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./3_aula) <br>
 [lista2.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./3_aula/lista2.md) <br>
 [lista2.png](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./3_aula/lista2.png) <br>
+* continuação Lista 1
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
 [dicas.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./dicas/dicas.md) <br>
 ## [./setup](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./setup) <br>

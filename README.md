@@ -12,7 +12,9 @@
 ## [./3_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./3_aula) <br>
 [lista2.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./3_aula/lista2.md) <br>
 [lista2.png](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./3_aula/lista2.png) <br>
-* continuação Lista 1
+* continuação Lista 1 
+
+
 [spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./3_aula/spotify_limitado.sql) <br>
 [exemplo_jdbc](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./3_aula/exemplo_jdbc) <br>
 ## [./4_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./4_aula) <br>

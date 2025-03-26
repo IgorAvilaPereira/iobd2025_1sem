@@ -46,3 +46,5 @@ obs: jdbc ficará de fora da atividade avaliada - mas poderá cair no trabalho
 [sql1.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./slides_importantes/sql1.pdf) <br>
 [sql2.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./slides_importantes/sql2.pdf) <br>
 [transformacao-er-modelo-relacional.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./slides_importantes/transformacao-er-modelo-relacional.pdf) <br>
+## [./videos](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./videos) <br>
+&nbsp;

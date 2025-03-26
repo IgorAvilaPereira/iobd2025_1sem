@@ -19,6 +19,7 @@
 [exemplo_jdbc](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./3_aula/exemplo_jdbc) <br>
 ## [./4_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./4_aula) <br>
 Continuação Lista 1
+[spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./4_aula/spotify_limitado.sql) <br>
 ## [./cronograma](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./cronograma) <br>
 * 06/05 - Atividade avaliada (5.0)
 * 06/05 - entrega trabalho (5.0)

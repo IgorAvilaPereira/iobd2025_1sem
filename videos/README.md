@@ -1,9 +1,9 @@
-* https://www.youtube.com/watch?v=Yz40xfg-Gi8&list=PLvT8P1q6jMWfdK6v25Sjhq3qwxLIAnvtk&pp=gAQB
+* [Diagrama Entidade Relacionamento](https://www.youtube.com/watch?v=Yz40xfg-Gi8&list=PLvT8P1q6jMWfdK6v25Sjhq3qwxLIAnvtk&pp=gAQB)
 
-* https://www.youtube.com/watch?v=mH9bBlHVFRw&list=PLvT8P1q6jMWcT5op9r3RJpaiD4uWAh4zu&pp=gAQB
+* [PostgreSQL/pgAdmin](https://www.youtube.com/watch?v=mH9bBlHVFRw&list=PLvT8P1q6jMWcT5op9r3RJpaiD4uWAh4zu&pp=gAQB)
 
-* https://www.youtube.com/watch?v=Aw1hnqEzPWg&list=PLvT8P1q6jMWdCXVwsdO3UAPAn743vHccK
+* [Modelagem Relacional](https://www.youtube.com/watch?v=Aw1hnqEzPWg&list=PLvT8P1q6jMWdCXVwsdO3UAPAn743vHccK)
 
-* https://www.youtube.com/watch?v=yDUKRYH-HTU
+* [Encontro Síncrono - Lista de Exercícios (SQL), Schemas e Herança no PostgreSQL - 21/09/23](https://www.youtube.com/watch?v=yDUKRYH-HTU)
 
-* https://www.youtube.com/watch?v=CzLUSWYwNQM&list=PLvT8P1q6jMWeItlnefnUWlASNMGA_q2Dw&index=2
+* [Encontro Síncrono - Modelagem Lógica (Modelo Relacional) e Modelagem Física (script.sql) - 27/09/23](https://www.youtube.com/watch?v=CzLUSWYwNQM&list=PLvT8P1q6jMWeItlnefnUWlASNMGA_q2Dw&index=2)

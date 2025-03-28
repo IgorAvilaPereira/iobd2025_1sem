@@ -37,36 +37,4 @@ Fazer o script.sql (2.0) e todos os exercícios abaixo (3.0):
 <!-- 33)  Formatar o retorno da data e hora-->
 
 
-*  
-*  
-*  
-*  
-*  
-*  
-*  
-*  
-*  
-*  
-*  
-*  
-*  
-*  
-*  
-*  
-*  
-*  
-*  
-*  
-*  
-*  
-*  
-*  
-* 
-*  
-*  
-* 
-*  
-*  
-
-
 ![image caption](lista2.png)

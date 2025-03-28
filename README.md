@@ -19,7 +19,6 @@
 Continuação Lista 1
 [spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./4_aula/spotify_limitado.sql) <br>
 ## [./5_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./5_aula) <br>
-[lista2.png](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./5_aula/lista2.png) <br>
 * Fazer exemplo de schema, recapitular views e etc.
 
 * matéria nova: tabelas virtuais
@@ -30,6 +29,7 @@ Continuação Lista 1
 
 &nbsp;
 [trabalho1.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./5_aula/trabalho1.md) <br>
+[trabalho1.png](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./5_aula/trabalho1.png) <br>
 ## [./cronograma](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./cronograma) <br>
 * 06/05 - Atividade avaliada (5.0)
 * 06/05 - entrega trabalho (5.0)

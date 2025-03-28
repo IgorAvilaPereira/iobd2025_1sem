@@ -20,6 +20,8 @@
 ## [./4_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./4_aula) <br>
 Continuação Lista 1
 [spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./4_aula/spotify_limitado.sql) <br>
+## [./5_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./5_aula) <br>
+&nbsp;
 ## [./cronograma](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./cronograma) <br>
 * 06/05 - Atividade avaliada (5.0)
 * 06/05 - entrega trabalho (5.0)

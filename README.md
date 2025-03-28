@@ -30,22 +30,6 @@ Continuação Lista 1
 &nbsp;
 [trabalho1.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./5_aula/trabalho1.md) <br>
 [trabalho1.png](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./5_aula/trabalho1.png) <br>
-## [./cronograma](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./cronograma) <br>
-* 06/05 - Atividade avaliada (5.0)
-* 06/05 - entrega trabalho (5.0)
-
-Atividade avaliada presencial será com consulta. Logo, sem recuperação paralela. Quem não puder comparecer, poderá pedir segunda chamada,
-obdecendo as regras da instituição.
-
-**O que irá cair:**
-* Modelagem Lógica (Modelo relacional)
-* Implementação física
-* Psql
-* SQL (DML) -> Tudo: join's, operação de conjuntos, views, schemas e etc.
-
-***
-
-obs: jdbc ficará de fora da atividade avaliada - mas poderá cair no trabalho
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
 [dicas.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./dicas/dicas.md) <br>
 ## [./setup](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./setup) <br>

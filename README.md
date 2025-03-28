@@ -10,8 +10,6 @@
 [spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./2_aula/spotify_limitado.sql) <br>
 [spotify_pobre.dia](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./2_aula/spotify_pobre.dia) <br>
 ## [./3_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./3_aula) <br>
-[lista2.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./3_aula/lista2.md) <br>
-[lista2.png](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./3_aula/lista2.png) <br>
 * continuação Lista 1 
 
 
@@ -21,13 +19,17 @@
 Continuação Lista 1
 [spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./4_aula/spotify_limitado.sql) <br>
 ## [./5_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./5_aula) <br>
+[lista2.png](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./5_aula/lista2.png) <br>
 * Fazer exemplo de schema, recapitular views e etc.
 
 * matéria nova: tabelas virtuais
 
 * Terminar Lista 1. Ex: Retorne a média da quantidade de músicas de todas as playlists
 
+* Começar trabalho 1
+
 &nbsp;
+[trabalho1.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./5_aula/trabalho1.md) <br>
 ## [./cronograma](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./cronograma) <br>
 * 06/05 - Atividade avaliada (5.0)
 * 06/05 - entrega trabalho (5.0)

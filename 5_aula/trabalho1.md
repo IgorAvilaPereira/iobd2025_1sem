@@ -36,5 +36,4 @@ Fazer o script.sql (2.0) e todos os exercícios abaixo (3.0 - cada 0,3):
 30)  Conta que mais realizou comentários
 <!-- 33)  Formatar o retorno da data e hora-->
 
-
-![image caption](lista2.png)
+![image caption](trabalho1.png)

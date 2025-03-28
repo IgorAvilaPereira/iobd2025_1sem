@@ -19,13 +19,17 @@
 Continuação Lista 1
 [spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./4_aula/spotify_limitado.sql) <br>
 ## [./5_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./5_aula) <br>
-* Fazer exemplo de schema, recapitular views e etc.
+* matéria nova: tables views
 
-* matéria nova: tabelas virtuais
+* terminar a lista 1
 
-* Terminar Lista 1. Ex: Retorne a média da quantidade de músicas de todas as playlists
+* divulgação trabalho 1 -> Data e Peso estão no SIGAA
 
-* Começar trabalho 1
+Na volta:
+
+* Aulão de Revisão
+* Fazer a atividade avaliada do 1 bim.
+* E começar 2º bim:  DCL e Conectividade java
 
 &nbsp;
 [trabalho1.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./5_aula/trabalho1.md) <br>

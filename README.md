@@ -21,6 +21,12 @@
 Continuação Lista 1
 [spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./4_aula/spotify_limitado.sql) <br>
 ## [./5_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./5_aula) <br>
+* Fazer exemplo de schema, recapitular views e etc.
+
+* matéria nova: tabelas virtuais
+
+* Terminar Lista 1. Ex: Retorne a média da quantidade de músicas de todas as playlists
+
 &nbsp;
 ## [./cronograma](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./cronograma) <br>
 * 06/05 - Atividade avaliada (5.0)

@@ -27,3 +27,6 @@
 * [with](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#with)
 
 * **Se der tempo:** [Generalização/Especialização de Tabelas no PostgreSQL](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#heran%C3%A7a-especializa%C3%A7%C3%A3ogeneraliza%C3%A7%C3%A3o-de-tabelas-no-postgresql)
+
+
+

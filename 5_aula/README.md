@@ -10,7 +10,7 @@
     
     * Fazer a atividade avaliada do 1 bim.
     
-     * E começar 2º bim:  JSON, Blob's, DCL e Conectividade java
+     * E começar 2º bim:  uuid, JSON, Blob's, DCL e Conectividade java
 
 ***
 

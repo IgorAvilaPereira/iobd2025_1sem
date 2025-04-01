@@ -16,16 +16,14 @@
 
 **Revisar tópicos apresentados na aula anterior:**
 
-* https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#views
+* [views](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#views)
 
-* https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#schema
+* [schemas](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#schema)
 
 **Matéria Nova:**
 
-* https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#with
+* [type](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#type)
 
-* https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#type
+* [with](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#with)
 
-* **Se der tempo:** https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#heran%C3%A7a-especializa%C3%A7%C3%A3ogeneraliza%C3%A7%C3%A3o-de-tabelas-no-postgresql
-
-
+* **Se der tempo:** [Generalização/Especialização de Tabelas no PostgreSQL](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#heran%C3%A7a-especializa%C3%A7%C3%A3ogeneraliza%C3%A7%C3%A3o-de-tabelas-no-postgresql)

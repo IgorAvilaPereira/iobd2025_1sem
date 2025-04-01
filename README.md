@@ -41,10 +41,9 @@ Continuação Lista 1
 
 * https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#schema
 
-* https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#with
-
-
 **Matéria Nova:**
+
+* https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#with
 
 * https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#type
 

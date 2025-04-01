@@ -52,9 +52,7 @@ Continuação Lista 1
 
 ***
 
-&nbsp;[trabalho1.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./5_aula/trabalho1.md) <br>
-[trabalho1.png](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./5_aula/trabalho1.png) <br>
-## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
+&nbsp;## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
 [dicas.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./dicas/dicas.md) <br>
 ## [./setup](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./setup) <br>
 [setup.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./setup/setup.md) <br>
@@ -64,6 +62,9 @@ Continuação Lista 1
 [sql1.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./slides_importantes/sql1.pdf) <br>
 [sql2.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./slides_importantes/sql2.pdf) <br>
 [transformacao-er-modelo-relacional.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./slides_importantes/transformacao-er-modelo-relacional.pdf) <br>
+## [./trabalhos](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./trabalhos) <br>
+[trabalho1.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./trabalhos/trabalho1.md) <br>
+[trabalho1.png](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./trabalhos/trabalho1.png) <br>
 ## [./videos](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./videos) <br>
 * [Diagrama Entidade Relacionamento](https://www.youtube.com/watch?v=Yz40xfg-Gi8&list=PLvT8P1q6jMWfdK6v25Sjhq3qwxLIAnvtk&pp=gAQB)
 

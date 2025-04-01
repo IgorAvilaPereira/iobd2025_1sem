@@ -21,17 +21,17 @@ Continuação Lista 1
 ## [./5_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./5_aula) <br>
 **Cronograma:**
 
-* terminar a lista 1
+* Terminar a Lista 1
 
-* divulgação trabalho 1 -> Data e Peso estão no SIGAA
+* Divulgação [trabalho 1](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/trabalhos/trabalho1.md) -> Data e Peso estão no SIGAA
 
 * **Na volta:**
 
     * Aulão de Revisão
     
-    * Fazer a atividade avaliada do 1 bim.
+    * Fazer a Atividade Avaliada do 1 bim.
     
-     * E começar 2º bim:  uuid, JSON, Blob's, DCL e Conectividade java
+     * E começar 2º bim:  uuid, JSON, Blob's, DCL e Conectividade JDBC (Java/PostgreSQL).
 
 ***
 

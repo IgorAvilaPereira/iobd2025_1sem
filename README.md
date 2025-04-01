@@ -19,20 +19,40 @@
 Continuação Lista 1
 [spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./4_aula/spotify_limitado.sql) <br>
 ## [./5_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./5_aula) <br>
-* matéria nova: tables views
+**Cronograma:**
 
 * terminar a lista 1
 
 * divulgação trabalho 1 -> Data e Peso estão no SIGAA
 
-Na volta:
+* **Na volta:**
 
-* Aulão de Revisão
-* Fazer a atividade avaliada do 1 bim.
-* E começar 2º bim:  DCL e Conectividade java
+    * Aulão de Revisão
+    
+    * Fazer a atividade avaliada do 1 bim.
+    
+     * E começar 2º bim:  DCL e Conectividade java
 
-&nbsp;
-[trabalho1.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./5_aula/trabalho1.md) <br>
+***
+
+**Revisar tópicos apresentados na aula anterior:**
+
+* https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#views
+
+* https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#schema
+
+* https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#with
+
+
+**Matéria Nova:**
+
+* https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#type
+
+* **Se der tempo:** https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#heran%C3%A7a-especializa%C3%A7%C3%A3ogeneraliza%C3%A7%C3%A3o-de-tabelas-no-postgresql
+
+***
+
+&nbsp;[trabalho1.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./5_aula/trabalho1.md) <br>
 [trabalho1.png](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./5_aula/trabalho1.png) <br>
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
 [dicas.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./dicas/dicas.md) <br>

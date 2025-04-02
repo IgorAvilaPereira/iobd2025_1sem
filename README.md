@@ -51,6 +51,7 @@ Continuação Lista 1
 
 
 
+[spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./5_aula/spotify_limitado.sql) <br>
 [trabalho1.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./5_aula/trabalho1.sql) <br>
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
 [dicas.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./dicas/dicas.md) <br>

@@ -1,6 +1,6 @@
 # Trabalho 1
 
-Fazer o script.sql (2.0) e todos os exercícios abaixo (3.0 - cada 0,3):
+Fazer o script.sql (2.0) e todos os exercícios abaixo (3.0 - cada 0,1):
 
 1) Listar o nome do usuário e o nomes das suas contas
 2) Listas as publicações e seus arquivos

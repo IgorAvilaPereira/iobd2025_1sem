@@ -1,5 +1,28 @@
+1) **Entrega trabalho: 05/05 (5.0)**
 
-[Generalização/Especialização de Tabelas no PostgreSQL](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#heran%C3%A7a-especializa%C3%A7%C3%A3ogeneraliza%C3%A7%C3%A3o-de-tabelas-no-postgresql), uuid, JSON, Blob's, DCL, Conectividade JDBC (Java/PostgreSQL) e Normalização.
+2) **Atividade avaliada 1º bim: 06/05  (5.0)**
+
+* com consulta
+
+* inner join, distinct, with, case, subselect, datas, funcoes de agregação, having, where, between, in, left, right, alter table, alter colum, group by, count, avg, coalesce, views, schemas e etc...., check, unique, primary key, modelo relacional, ddl, dql,  dml
+
+* não recuperável
+
+* offline, not coleguinha, not internet
+
+*** 
+
+3) Início - 2º bim
+
+* JDBC: matéria ministrada hoje
+
+**assuntos que serão vistos ao longo do 2º bim.:**
+
+* BLOB's
+* json
+* normalização 
+* dcl
+* [Generalização/Especialização de Tabelas no PostgreSQL](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#heran%C3%A7a-especializa%C3%A7%C3%A3ogeneraliza%C3%A7%C3%A3o-de-tabelas-no-postgresql), uuid, JSON, Blob's, DCL, Conectividade JDBC (Java/PostgreSQL) e Normalização.
 
 **ORM:**
 

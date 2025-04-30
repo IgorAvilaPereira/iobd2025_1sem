@@ -12,9 +12,9 @@
 
 *** 
 
-3) Início - 2º bim
+3) **Início - 2º bim**
 
-* JDBC: matéria ministrada hoje
+* **JDBC: matéria ministrada hoje**
 
 **assuntos que serão vistos ao longo do 2º bim.:**
 
@@ -55,3 +55,8 @@
 * [Padrão DAO - 4](http://www.deinf.ufma.br/~geraldo/poo/10.1.DAO.pdf) 
 
 * [Padrão DAO - Wikipedia](https://pt.wikipedia.org/wiki/Objeto_de_acesso_a_dados)
+
+
+**Exemplo Código:**
+
+

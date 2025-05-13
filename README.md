@@ -120,6 +120,8 @@ Continuação Lista 1
 
 
 [joelho](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./6_aula/joelho) <br>
+## [./7_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./7_aula) <br>
+&nbsp;
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
 [dicas.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./dicas/dicas.md) <br>
 ## [./setup](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./setup) <br>

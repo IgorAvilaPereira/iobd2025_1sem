@@ -121,6 +121,16 @@ Continuação Lista 1
 
 [joelho](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./6_aula/joelho) <br>
 ## [./7_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./7_aula) <br>
+
+1) Adicionar ao projeto **joelho** imagens através dos BLOB's:
+
+* bytea
+
+* e etc.
+
+2) Integrar com a aplicação Java/JDBC
+
+
 &nbsp;
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
 [dicas.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./dicas/dicas.md) <br>

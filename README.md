@@ -329,6 +329,7 @@ SELECT lo_unlink(32784);
 **2) Integrar com a aplicação Java/JDBC**
 
 &nbsp;
+[joelho](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./7_aula/joelho) <br>
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
 [dicas.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./dicas/dicas.md) <br>
 ## [./setup](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./setup) <br>

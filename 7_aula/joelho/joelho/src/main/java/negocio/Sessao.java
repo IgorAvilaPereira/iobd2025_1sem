@@ -38,5 +38,12 @@ public class Sessao {
         this.dataHora = dataHora;
     }
 
+    @Override
+    public String toString() {
+        return "Sessao [id=" + id + ", fisioterapeuta=" + fisioterapeuta + ", paciente=" + paciente + ", dataHora="
+                + dataHora + "]";
+    }
+
+    
     
 }

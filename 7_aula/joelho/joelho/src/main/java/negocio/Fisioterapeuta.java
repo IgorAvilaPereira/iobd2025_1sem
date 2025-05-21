@@ -1,12 +1,13 @@
 package negocio;
 
-public class Fisioterapeuta {
+import java.util.Arrays;
+
+public class Fisioterapeuta extends Pessoa {
     private int id;
     private String nome;
     private String crefito;
     private boolean ativo;
-
-    
+  
 
     public int getId() {
         return id;
@@ -26,16 +27,22 @@ public class Fisioterapeuta {
     public void setCrefito(String crefito) {
         this.crefito = crefito;
     }
-    @Override
-    public String toString() {
-        return "Fisioterapeuta [id=" + id + ", nome=" + nome + ", crefito=" + crefito + "]";
-    }
+
     public boolean isAtivo() {
         return ativo;
     }
     public void setAtivo(boolean ativo) {
         this.ativo = ativo;
     }
+    @Override
+    public String toString() {
+        return "Fisioterapeuta [id=" + id + ", nome=" + nome + ", crefito=" + crefito + ", ativo=" + ativo + ", foto="
+                + Arrays.toString(foto) + "]";
+    }
+
+    
+
+    
 
     
     

@@ -4,6 +4,7 @@ import java.awt.LayoutManager;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.sql.SQLException;
+import java.time.LocalDateTime;
 import java.util.Scanner;
 
 import javax.swing.ImageIcon;
@@ -20,6 +21,18 @@ import persistencia.SessaoDAO;
 
 public class Main {
     public static void main(String[] args) throws SQLException, FileNotFoundException, IOException {
+        // criando uma sessao
+        System.out.println(new SessaoDAO().obter(4));
+        // Paciente i = new PacienteDAO().obter("11111111111");
+        // Fisioterapeuta p = new FisioterapeutaDAO().obter("11111");
+
+        // Sessao n = new Sessao();
+        // n.setFisioterapeuta(p);
+        // n.setPaciente(i);
+        // n.setDataHora(LocalDateTime.now());
+
+        // new SessaoDAO().adicionar(n);
+        
         // Paciente julie = new Paciente();
         // julie.setNome("Julie");
         // julie.setCpf("22222222222");
@@ -29,17 +42,30 @@ public class Main {
         // new PacienteDAO().inserir(julie);
         // menuSessao();
         // menuFisioterapeuta();
-        Paciente j = new PacienteDAO().obter("22222222222");
-        System.out.println(j.getNome());
 
 
+        // Paciente igor = new PacienteDAO().obter("11111111111");
+        // igor.setNome("igor pereira");
+        // igor.caminhoFotoParaFoto("/home/iapereira/foto_nova.png");
+        // // System.out.println(igor.getCpf());
+        // new PacienteDAO().atualizar(igor, true);
+
+        // Paciente jAlterada = new PacienteDAO().obter("11111111111");
+        // exibirFoto(jAlterada.getNome(), jAlterada.getFoto());
+
+        // new PacienteDAO().listarAtivos().forEach(p -> System.out.println(p.getNome()));
+
+
+
+       
+    }
+
+    private static void exibirFoto(String descricao, byte[] foto){
         JFrame frame = new JFrame("Joelho Novo Operações LTDA = Onde sua dor, é nossa dor!");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         // frame.setLayout(new LayoutManager());
-
-        ImageIcon icon = new ImageIcon(j.getFoto()); // Replace with your image path
-        JLabel label = new JLabel(j.getNome(), icon, JLabel.CENTER);
-
+        ImageIcon icon = new ImageIcon(foto); // Replace with your image path
+        JLabel label = new JLabel(descricao, icon, JLabel.CENTER);
         frame.add(label);
         frame.pack();
         frame.setVisible(true);
@@ -117,7 +143,9 @@ public class Main {
                 fisioterapeutaAtualizar.setNome(novo_nome_atualizar);
                 // System.out.println("Novo crefito");
                 // String novo_nome_atualizar = entrada.nextLine();
-                new FisioterapeutaDAO().atualizar(fisioterapeutaAtualizar);
+                
+                // TODO pedir foto...
+                new FisioterapeutaDAO().atualizar(fisioterapeutaAtualizar, false);
             }
             System.out.println(menu);
             opcao = entrada.nextInt();

@@ -36,5 +36,7 @@ ALTER TABLE fisioterapeuta ADD COLUMN ativo boolean DEFAULT TRUE;
 ALTER TABLE paciente ADD COLUMN ativo boolean DEFAULT TRUE;
 
 ALTER TABLE paciente ADD COLUMN foto bytea;
+ALTER TABLE fisioterapeuta ADD COLUMN foto bytea;
 
+ALTER TABLE paciente ALTER COLUMN cpf SET NOT NULL;
 

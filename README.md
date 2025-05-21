@@ -121,6 +121,7 @@ Continuação Lista 1
 
 [joelho](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./6_aula/joelho) <br>
 ## [./7_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./7_aula) <br>
+[dao_jdbc.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./7_aula/dao_jdbc.pdf) <br>
 
 **1) Adicionar ao projeto **joelho** imagens através dos BLOB's:**
 

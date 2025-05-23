@@ -332,6 +332,12 @@ SELECT lo_unlink(32784);
 &nbsp;
 [joelho](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./7_aula/joelho) <br>
 ## [./8_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./8_aula) <br>
+* json
+* normalização 
+* dcl
+* [Generalização/Especialização de Tabelas no PostgreSQL](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#heran%C3%A7a-especializa%C3%A7%C3%A3ogeneraliza%C3%A7%C3%A3o-de-tabelas-no-postgresql), uuid, JSON, Blob's, DCL, Conectividade JDBC (Java/PostgreSQL) e Normalização.
+
+
 &nbsp;
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
 [dicas.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./dicas/dicas.md) <br>

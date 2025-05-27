@@ -332,6 +332,7 @@ SELECT lo_unlink(32784);
 &nbsp;
 [joelho](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./7_aula/joelho) <br>
 ## [./8_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./8_aula) <br>
+[aula2705.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./8_aula/aula2705.sql) <br>
 * json
 * normalização 
 * dcl
@@ -339,6 +340,7 @@ SELECT lo_unlink(32784);
 
 
 &nbsp;
+[anotacao](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./8_aula/anotacao) <br>
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
 [dicas.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./dicas/dicas.md) <br>
 ## [./setup](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./setup) <br>

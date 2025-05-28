@@ -365,3 +365,7 @@ SELECT lo_unlink(32784);
 * [Encontro Síncrono - Lista de Exercícios (SQL), Schemas e Herança no PostgreSQL - 21/09/23](https://www.youtube.com/watch?v=yDUKRYH-HTU)
 
 * [Encontro Síncrono - Modelagem Lógica (Modelo Relacional) e Modelagem Física (script.sql) - 27/09/23](https://www.youtube.com/watch?v=CzLUSWYwNQM&list=PLvT8P1q6jMWeItlnefnUWlASNMGA_q2Dw&index=2)
+
+* [Playlist com vídeos sobre JDBC, DAO e ORM](https://youtube.com/playlist?list=PLvT8P1q6jMWf_Epq_VhCgupInovZGdSZ-&si=YWavfUkW4eWIn3U6)
+
+ 

@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Timestamp;
 
 import org.json.JSONObject;
 
@@ -11,6 +12,30 @@ import negocio.Anotacao;
 
 public class AnotacaoDAO {
 
+      public boolean deletar(int id) throws SQLException{
+        String sql = "DELETE FROM anotacao WHERE id = ?;";
+        Connection conexao = new ConexaoPostgreSQL().getConnection();
+        PreparedStatement preparedStatement = conexao.prepareStatement(sql);
+        preparedStatement.setInt(1, id);
+        int linhasAfetadas = preparedStatement.executeUpdate();
+        preparedStatement.close();
+        conexao.close();
+        return linhasAfetadas == 1;
+    }
+
+
+     public boolean atualizar(Anotacao anotacao) throws SQLException{
+        String sql = " update anotacao set data_hora = ?, conteudo = cast(? as jsonb) where id = ?;";
+        Connection conexao = new ConexaoPostgreSQL().getConnection();
+        PreparedStatement preparedStatement = conexao.prepareStatement(sql);
+        preparedStatement.setTimestamp(1, Timestamp.valueOf(anotacao.getDataHora()));
+        preparedStatement.setString(2, anotacao.getConteudo().toString());
+        preparedStatement.setInt(3, anotacao.getId());
+        int linhasAfetadas = preparedStatement.executeUpdate();
+        preparedStatement.close();
+        conexao.close();
+        return linhasAfetadas == 1;
+    }
 
     public boolean inserir(Anotacao anotacao) throws SQLException{
         String sql = "INSERT INTO anotacao (conteudo) VALUES ('{\"titulo\": \""+anotacao.getConteudo().getString("titulo")+"\", \"texto\": \""+anotacao.getConteudo().getString("texto")+"\", \"cor\": \""+anotacao.getConteudo().getString("cor")+"\"}');";

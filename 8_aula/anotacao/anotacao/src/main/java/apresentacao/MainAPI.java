@@ -6,7 +6,7 @@ import persistencia.AnotacaoDAO;
 public class MainAPI {
     public static void main(String[] args) {
         var app = Javalin.create(/*config*/)
-            .get("/", ctx -> ctx.result(new AnotacaoDAO().obter(3).convertToJSON()))
+            .get("/", ctx -> ctx.result(new AnotacaoDAO().obter(4).convertToJSON()))
             .start(7070);
     }
 }

@@ -100,6 +100,9 @@ Essa abordagem suporta 100% de:
 
 &nbsp;
 ## [./11_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./11_aula) <br>
+* normalização
+* dcl
+
 &nbsp;
 ## [./1_introducao](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./1_introducao) <br>
 [1_introducao.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./1_introducao/1_introducao.md) <br>

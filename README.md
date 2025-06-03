@@ -1,4 +1,6 @@
 # iobd2025_1sem <br>
+## [./10_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./10_aula) <br>
+&nbsp;
 ## [./1_introducao](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./1_introducao) <br>
 [1_introducao.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./1_introducao/1_introducao.md) <br>
 [chuva.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./1_introducao/chuva.sql) <br>

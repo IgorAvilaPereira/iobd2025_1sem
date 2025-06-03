@@ -100,6 +100,7 @@ Essa abordagem suporta 100% de:
 
 &nbsp;
 ## [./11_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./11_aula) <br>
+[exemplo-transformacao-er-relacional-heranca.dia](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./11_aula/exemplo-transformacao-er-relacional-heranca.dia) <br>
 * normalização
 * dcl
 

@@ -447,6 +447,7 @@ SELECT lo_unlink(32784);
 &nbsp;
 [anotacao](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./8_aula/anotacao) <br>
 ## [./9_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./9_aula) <br>
+[exemplo-transformacao-er-relacional-heranca.dia](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./9_aula/exemplo-transformacao-er-relacional-heranca.dia) <br>
 * [Generalização/Especialização de Tabelas no PostgreSQL](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#heran%C3%A7a-especializa%C3%A7%C3%A3ogeneraliza%C3%A7%C3%A3o-de-tabelas-no-postgresql)
 
 * uuid

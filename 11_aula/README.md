@@ -1,1 +1,4 @@
+* normalização
+* dcl
+
 &nbsp;

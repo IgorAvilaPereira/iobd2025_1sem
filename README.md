@@ -466,9 +466,6 @@ SELECT lo_unlink(32784);
 &nbsp;
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
 [dicas.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./dicas/dicas.md) <br>
-## [./ok](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./ok) <br>
-https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/ok
-&nbsp;
 ## [./setup](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./setup) <br>
 [setup.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./setup/setup.md) <br>
 ## [./slides_importantes](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./slides_importantes) <br>

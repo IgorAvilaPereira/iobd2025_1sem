@@ -3,7 +3,7 @@
 [cronograma.png](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/cronograma.png) <br>
 [exemplo.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/exemplo.sql) <br>
 [exemplo-transformacao-er-relacional-heranca.dia](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/exemplo-transformacao-er-relacional-heranca.dia) <br>
-![cronograma][cronograma.png]
+![cronograma](cronograma.png)
 
 ### ✅ O que é herdado pelas tabelas filhas (`INHERITS`) no PostgreSQL?
 

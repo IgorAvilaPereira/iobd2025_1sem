@@ -1,137 +1,26 @@
 # iobd2025_1sem <br>
-## [./10_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./10_aula) <br>
-[cronograma.png](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/cronograma.png) <br>
-[exemplo.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/exemplo.sql) <br>
-[exemplo-transformacao-er-relacional-heranca.dia](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/exemplo-transformacao-er-relacional-heranca.dia) <br>
-### Herança de Tabelas PostgreSQL
-
-#### ✅ O que é herdado pelas tabelas filhas (`INHERITS`) no PostgreSQL?
-
-| Tipo de Restrição / Comportamento | É herdado? |
-| --------------------------------- | ---------- |
-| Colunas                           | ✅ Sim      |
-| Tipos de dados                    | ✅ Sim      |
-| **PRIMARY KEY**                   | ❌ Não      |
-| **UNIQUE**                        | ❌ Não      |
-| **CHECK**                         | ❌ Não      |
-| **FOREIGN KEY (FK)**              | ❌ Não      |
-| **Índices**                       | ❌ Não      |
-| **Triggers**                      | ❌ Não      |
-
----
-
-#### ❗ Ou seja:
-
-* Se você cria uma constraint `UNIQUE(email)` na tabela pai (`pessoa`), **isso não se aplica automaticamente às tabelas filhas**.
-* Se você define uma `FOREIGN KEY` na tabela pai, **ela não é aplicada às filhas**.
-* Cada tabela filha precisa **definir explicitamente** essas constraints, se quiser garantir o comportamento.
-
----
-
-#### 📌 Exemplo Prático
-
-##### Tabela Pai:
-
-```sql
-CREATE TABLE pessoa (
-    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-    nome TEXT NOT NULL,
-    email TEXT NOT NULL,
-    CONSTRAINT email_unico UNIQUE (email),
-    CHECK (char_length(nome) > 2)
-);
-```
-
-#### Tabela Filha:
-
-```sql
-CREATE TABLE cliente (
-    data_cadastro DATE NOT NULL DEFAULT CURRENT_DATE
-) INHERITS (pessoa);
-```
-
-#### O que acontece aqui?
-
-* A coluna `email` é herdada ✔️
-* A constraint `UNIQUE(email)` **não é aplicada** ❌
-* A `CHECK (char_length(nome) > 2)` **não é aplicada** ❌
-* O `PRIMARY KEY` **não é aplicado** ❌
-
----
-
-#### 🧠 O que você deve fazer?
-
-Você precisa **reaplicar manualmente as constraints** nas tabelas filhas:
-
-```sql
--- Reaplicando constraints manualmente
-ALTER TABLE cliente ADD CONSTRAINT cliente_pkey PRIMARY KEY (id);
-ALTER TABLE cliente ADD CONSTRAINT cliente_email_unico UNIQUE (email);
-ALTER TABLE cliente ADD CHECK (char_length(nome) > 2);
-```
-
----
-
-#### ✅ Melhor Alternativa para Produção
-
-Evite `INHERITS` se precisar de integridade forte (como `FK`, `UNIQUE`, etc). Em vez disso:
-
-* Crie uma **tabela base** (`pessoa`)
-* E especializações com **chave estrangeira** para `pessoa(id)`
-
-#### Exemplo:
-
-```sql
-CREATE TABLE pessoa (
-    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-    nome TEXT NOT NULL,
-    email TEXT UNIQUE NOT NULL
-);
-
-CREATE TABLE cliente (
-    pessoa_id UUID PRIMARY KEY REFERENCES pessoa(id),
-    data_cadastro DATE NOT NULL
-);
-```
-
-Essa abordagem suporta 100% de:
-
-* Chaves primárias e estrangeiras ✅
-* Checks e constraints ✅
-* Índices ✅
-* Integridade forte e controle total ✅
-
-&nbsp;[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./10_aula)
-[igor_corporation](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/igor_corporation) <br>
-## [./11_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./11_aula) <br>
-[exemplo-transformacao-er-relacional-heranca.dia](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./11_aula/exemplo-transformacao-er-relacional-heranca.dia) <br>
-* normalização
-* dcl
-
-&nbsp;
-[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./11_aula)
-## [./1_introducao](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./1_introducao) <br>
-[1_introducao.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./1_introducao/1_introducao.md) <br>
-[chuva.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./1_introducao/chuva.sql) <br>
-[sql1.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./1_introducao/sql1.pdf) <br>
-[sql2.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./1_introducao/sql2.pdf) <br>
-[teste_jdbc](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./1_introducao/teste_jdbc) <br>
-## [./2_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./2_aula) <br>
-[lista1.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./2_aula/lista1.md) <br>
-[spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./2_aula/spotify_limitado.sql) <br>
-[spotify_pobre.dia](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./2_aula/spotify_pobre.dia) <br>
-## [./3_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./3_aula) <br>
+## [./01_introducao](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./01_introducao) <br>
+[1_introducao.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./01_introducao/1_introducao.md) <br>
+[chuva.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./01_introducao/chuva.sql) <br>
+[sql1.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./01_introducao/sql1.pdf) <br>
+[sql2.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./01_introducao/sql2.pdf) <br>
+[teste_jdbc](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./01_introducao/teste_jdbc) <br>
+## [./02_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./02_aula) <br>
+[lista1.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./02_aula/lista1.md) <br>
+[spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./02_aula/spotify_limitado.sql) <br>
+[spotify_pobre.dia](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./02_aula/spotify_pobre.dia) <br>
+## [./03_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./03_aula) <br>
 * continuação Lista 1 
 
 
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./3_aula)
-[spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./3_aula/spotify_limitado.sql) <br>
-[exemplo_jdbc](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./3_aula/exemplo_jdbc) <br>
-## [./4_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./4_aula) <br>
+[spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./03_aula/spotify_limitado.sql) <br>
+[exemplo_jdbc](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./03_aula/exemplo_jdbc) <br>
+## [./04_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./04_aula) <br>
 Continuação Lista 1
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./4_aula)
-[spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./4_aula/spotify_limitado.sql) <br>
-## [./5_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./5_aula) <br>
+[spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./04_aula/spotify_limitado.sql) <br>
+## [./05_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./05_aula) <br>
 **Cronograma:**
 
 * Terminar a Lista 1
@@ -165,12 +54,12 @@ Continuação Lista 1
 
 
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./5_aula)
-[spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./5_aula/spotify_limitado.sql) <br>
-[trabalho1.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./5_aula/trabalho1.sql) <br>
-## [./6_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./6_aula) <br>
-[estrategias_orm.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./6_aula/estrategias_orm.pdf) <br>
-[jdbc.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./6_aula/jdbc.pdf) <br>
-[joelho_novo.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./6_aula/joelho_novo.sql) <br>
+[spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./05_aula/spotify_limitado.sql) <br>
+[trabalho1.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./05_aula/trabalho1.sql) <br>
+## [./06_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./06_aula) <br>
+[estrategias_orm.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./06_aula/estrategias_orm.pdf) <br>
+[jdbc.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./06_aula/jdbc.pdf) <br>
+[joelho_novo.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./06_aula/joelho_novo.sql) <br>
 1) **Entrega trabalho: 05/05 (5.0)**
 
 2) **Atividade avaliada 1º bim: 06/05  (5.0)**
@@ -234,9 +123,9 @@ Continuação Lista 1
 
 
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./6_aula)
-[joelho](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./6_aula/joelho) <br>
-## [./7_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./7_aula) <br>
-[dao_jdbc.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./7_aula/dao_jdbc.pdf) <br>
+[joelho](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./06_aula/joelho) <br>
+## [./07_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./07_aula) <br>
+[dao_jdbc.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./07_aula/dao_jdbc.pdf) <br>
 
 **1) Adicionar ao projeto **joelho** imagens através dos BLOB's:**
 
@@ -446,9 +335,9 @@ SELECT lo_unlink(32784);
 
 &nbsp;
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./7_aula)
-[joelho](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./7_aula/joelho) <br>
-## [./8_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./8_aula) <br>
-[aula2705.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./8_aula/aula2705.sql) <br>
+[joelho](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./07_aula/joelho) <br>
+## [./08_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./08_aula) <br>
+[aula2705.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./08_aula/aula2705.sql) <br>
 * json
 * normalização 
 * dcl
@@ -457,9 +346,9 @@ SELECT lo_unlink(32784);
 
 &nbsp;
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./8_aula)
-[anotacao](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./8_aula/anotacao) <br>
-## [./9_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./9_aula) <br>
-[exemplo-transformacao-er-relacional-heranca.dia](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./9_aula/exemplo-transformacao-er-relacional-heranca.dia) <br>
+[anotacao](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./08_aula/anotacao) <br>
+## [./09_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./09_aula) <br>
+[exemplo-transformacao-er-relacional-heranca.dia](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./09_aula/exemplo-transformacao-er-relacional-heranca.dia) <br>
 * [Generalização/Especialização de Tabelas no PostgreSQL](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/dicas/dicas.md#heran%C3%A7a-especializa%C3%A7%C3%A3ogeneraliza%C3%A7%C3%A3o-de-tabelas-no-postgresql)
 
 * uuid
@@ -471,6 +360,117 @@ SELECT lo_unlink(32784);
 
 &nbsp;
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./9_aula)
+## [./10_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./10_aula) <br>
+[cronograma.png](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/cronograma.png) <br>
+[exemplo.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/exemplo.sql) <br>
+[exemplo-transformacao-er-relacional-heranca.dia](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/exemplo-transformacao-er-relacional-heranca.dia) <br>
+### Herança de Tabelas PostgreSQL
+
+#### ✅ O que é herdado pelas tabelas filhas (`INHERITS`) no PostgreSQL?
+
+| Tipo de Restrição / Comportamento | É herdado? |
+| --------------------------------- | ---------- |
+| Colunas                           | ✅ Sim      |
+| Tipos de dados                    | ✅ Sim      |
+| **PRIMARY KEY**                   | ❌ Não      |
+| **UNIQUE**                        | ❌ Não      |
+| **CHECK**                         | ❌ Não      |
+| **FOREIGN KEY (FK)**              | ❌ Não      |
+| **Índices**                       | ❌ Não      |
+| **Triggers**                      | ❌ Não      |
+
+---
+
+#### ❗ Ou seja:
+
+* Se você cria uma constraint `UNIQUE(email)` na tabela pai (`pessoa`), **isso não se aplica automaticamente às tabelas filhas**.
+* Se você define uma `FOREIGN KEY` na tabela pai, **ela não é aplicada às filhas**.
+* Cada tabela filha precisa **definir explicitamente** essas constraints, se quiser garantir o comportamento.
+
+---
+
+#### 📌 Exemplo Prático
+
+##### Tabela Pai:
+
+```sql
+CREATE TABLE pessoa (
+    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    nome TEXT NOT NULL,
+    email TEXT NOT NULL,
+    CONSTRAINT email_unico UNIQUE (email),
+    CHECK (char_length(nome) > 2)
+);
+```
+
+#### Tabela Filha:
+
+```sql
+CREATE TABLE cliente (
+    data_cadastro DATE NOT NULL DEFAULT CURRENT_DATE
+) INHERITS (pessoa);
+```
+
+#### O que acontece aqui?
+
+* A coluna `email` é herdada ✔️
+* A constraint `UNIQUE(email)` **não é aplicada** ❌
+* A `CHECK (char_length(nome) > 2)` **não é aplicada** ❌
+* O `PRIMARY KEY` **não é aplicado** ❌
+
+---
+
+#### 🧠 O que você deve fazer?
+
+Você precisa **reaplicar manualmente as constraints** nas tabelas filhas:
+
+```sql
+-- Reaplicando constraints manualmente
+ALTER TABLE cliente ADD CONSTRAINT cliente_pkey PRIMARY KEY (id);
+ALTER TABLE cliente ADD CONSTRAINT cliente_email_unico UNIQUE (email);
+ALTER TABLE cliente ADD CHECK (char_length(nome) > 2);
+```
+
+---
+
+#### ✅ Melhor Alternativa para Produção
+
+Evite `INHERITS` se precisar de integridade forte (como `FK`, `UNIQUE`, etc). Em vez disso:
+
+* Crie uma **tabela base** (`pessoa`)
+* E especializações com **chave estrangeira** para `pessoa(id)`
+
+#### Exemplo:
+
+```sql
+CREATE TABLE pessoa (
+    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    nome TEXT NOT NULL,
+    email TEXT UNIQUE NOT NULL
+);
+
+CREATE TABLE cliente (
+    pessoa_id UUID PRIMARY KEY REFERENCES pessoa(id),
+    data_cadastro DATE NOT NULL
+);
+```
+
+Essa abordagem suporta 100% de:
+
+* Chaves primárias e estrangeiras ✅
+* Checks e constraints ✅
+* Índices ✅
+* Integridade forte e controle total ✅
+
+&nbsp;[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./10_aula)
+[igor_corporation](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/igor_corporation) <br>
+## [./11_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./11_aula) <br>
+[exemplo-transformacao-er-relacional-heranca.dia](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./11_aula/exemplo-transformacao-er-relacional-heranca.dia) <br>
+* normalização
+* dcl
+
+&nbsp;
+[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./11_aula)
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
 [dicas.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./dicas/dicas.md) <br>
 ## [./setup](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./setup) <br>

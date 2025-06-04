@@ -25,7 +25,7 @@ for d in ./*; do
 	    		# se n tiver wiki, favor comentar
  #   			echo "[$d2](https://github.com/IgorAvilaPereira/"$repositorio"/blob/main/$d/$d2) <br>" >> "./../../"$repositorio".wiki/Home.md"					
             else
-                 echo "[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/$repositorio/tree/main/$d)" >> "README.md" 
+#                 echo "[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/$repositorio/tree/main/$d)" >> "README.md" 
                  cat "README.md" >> "./../README.md"
   #               cat "README.md" >> "./../../"$repositorio".wiki/Home.md"							
 			fi

@@ -474,9 +474,6 @@ SELECT lo_unlink(32784);
 [sql1.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./slides_importantes/sql1.pdf) <br>
 [sql2.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./slides_importantes/sql2.pdf) <br>
 [transformacao-er-modelo-relacional.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./slides_importantes/transformacao-er-modelo-relacional.pdf) <br>
-## [./teste](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./teste) <br>
-## [./teste2](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./teste2) <br>
-&nbsp;
 ## [./teste3](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./teste3) <br>
 https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/teste3
 &nbsp;

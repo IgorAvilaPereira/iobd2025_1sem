@@ -13,12 +13,12 @@
 * continuação Lista 1 
 
 
-[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./3_aula)
+[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./03_aula)
 [spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./03_aula/spotify_limitado.sql) <br>
 [exemplo_jdbc](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./03_aula/exemplo_jdbc) <br>
 ## [./04_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./04_aula) <br>
 Continuação Lista 1
-[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./4_aula)
+[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./04_aula)
 [spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./04_aula/spotify_limitado.sql) <br>
 ## [./05_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./05_aula) <br>
 **Cronograma:**
@@ -53,7 +53,7 @@ Continuação Lista 1
 
 
 
-[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./5_aula)
+[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./05_aula)
 [spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./05_aula/spotify_limitado.sql) <br>
 [trabalho1.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./05_aula/trabalho1.sql) <br>
 ## [./06_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./06_aula) <br>
@@ -122,7 +122,7 @@ Continuação Lista 1
 **Exemplo Código:**
 
 
-[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./6_aula)
+[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./06_aula)
 [joelho](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./06_aula/joelho) <br>
 ## [./07_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./07_aula) <br>
 [dao_jdbc.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./07_aula/dao_jdbc.pdf) <br>
@@ -334,7 +334,7 @@ SELECT lo_unlink(32784);
 **2) Integrar com a aplicação Java/JDBC**
 
 &nbsp;
-[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./7_aula)
+[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./07_aula)
 [joelho](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./07_aula/joelho) <br>
 ## [./08_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./08_aula) <br>
 [aula2705.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./08_aula/aula2705.sql) <br>
@@ -345,7 +345,7 @@ SELECT lo_unlink(32784);
 
 
 &nbsp;
-[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./8_aula)
+[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./08_aula)
 [anotacao](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./08_aula/anotacao) <br>
 ## [./09_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./09_aula) <br>
 [exemplo-transformacao-er-relacional-heranca.dia](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./09_aula/exemplo-transformacao-er-relacional-heranca.dia) <br>
@@ -359,7 +359,7 @@ SELECT lo_unlink(32784);
 
 
 &nbsp;
-[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./9_aula)
+[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./09_aula)
 ## [./10_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./10_aula) <br>
 [cronograma.png](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/cronograma.png) <br>
 [exemplo.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/exemplo.sql) <br>

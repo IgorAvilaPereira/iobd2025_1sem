@@ -3,9 +3,13 @@
 [cronograma.png](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/cronograma.png) <br>
 [exemplo.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/exemplo.sql) <br>
 [exemplo-transformacao-er-relacional-heranca.dia](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/exemplo-transformacao-er-relacional-heranca.dia) <br>
+### Cronograma
+
 ![cronograma](cronograma.png)
 
-### ✅ O que é herdado pelas tabelas filhas (`INHERITS`) no PostgreSQL?
+### Herança de Tabelas PostgreSQL
+
+#### ✅ O que é herdado pelas tabelas filhas (`INHERITS`) no PostgreSQL?
 
 | Tipo de Restrição / Comportamento | É herdado? |
 | --------------------------------- | ---------- |
@@ -20,7 +24,7 @@
 
 ---
 
-### ❗ Ou seja:
+#### ❗ Ou seja:
 
 * Se você cria uma constraint `UNIQUE(email)` na tabela pai (`pessoa`), **isso não se aplica automaticamente às tabelas filhas**.
 * Se você define uma `FOREIGN KEY` na tabela pai, **ela não é aplicada às filhas**.
@@ -28,9 +32,9 @@
 
 ---
 
-### 📌 Exemplo Prático
+#### 📌 Exemplo Prático
 
-#### Tabela Pai:
+##### Tabela Pai:
 
 ```sql
 CREATE TABLE pessoa (
@@ -42,7 +46,7 @@ CREATE TABLE pessoa (
 );
 ```
 
-### Tabela Filha:
+#### Tabela Filha:
 
 ```sql
 CREATE TABLE cliente (
@@ -50,7 +54,7 @@ CREATE TABLE cliente (
 ) INHERITS (pessoa);
 ```
 
-### O que acontece aqui?
+#### O que acontece aqui?
 
 * A coluna `email` é herdada ✔️
 * A constraint `UNIQUE(email)` **não é aplicada** ❌
@@ -59,7 +63,7 @@ CREATE TABLE cliente (
 
 ---
 
-### 🧠 O que você deve fazer?
+#### 🧠 O que você deve fazer?
 
 Você precisa **reaplicar manualmente as constraints** nas tabelas filhas:
 
@@ -72,14 +76,14 @@ ALTER TABLE cliente ADD CHECK (char_length(nome) > 2);
 
 ---
 
-## ✅ Melhor Alternativa para Produção
+#### ✅ Melhor Alternativa para Produção
 
 Evite `INHERITS` se precisar de integridade forte (como `FK`, `UNIQUE`, etc). Em vez disso:
 
 * Crie uma **tabela base** (`pessoa`)
 * E especializações com **chave estrangeira** para `pessoa(id)`
 
-### Exemplo:
+#### Exemplo:
 
 ```sql
 CREATE TABLE pessoa (
@@ -102,8 +106,7 @@ Essa abordagem suporta 100% de:
 * Integridade forte e controle total ✅
 
 
-&nbsp;
-[igor_corporation](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/igor_corporation) <br>
+&nbsp;[igor_corporation](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/igor_corporation) <br>
 ## [./11_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./11_aula) <br>
 [exemplo-transformacao-er-relacional-heranca.dia](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./11_aula/exemplo-transformacao-er-relacional-heranca.dia) <br>
 * normalização

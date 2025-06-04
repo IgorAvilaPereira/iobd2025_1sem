@@ -1,3 +1,5 @@
+![cronograma][cronograma.png]
+
 ### ✅ O que é herdado pelas tabelas filhas (`INHERITS`) no PostgreSQL?
 
 | Tipo de Restrição / Comportamento | É herdado? |

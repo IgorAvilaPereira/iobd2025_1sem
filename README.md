@@ -103,13 +103,15 @@ Essa abordagem suporta 100% de:
 
 https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/10_aula
 
-&nbsp;[igor_corporation](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/igor_corporation) <br>
+&nbsp;[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./10_aula)
+[igor_corporation](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./10_aula/igor_corporation) <br>
 ## [./11_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./11_aula) <br>
 [exemplo-transformacao-er-relacional-heranca.dia](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./11_aula/exemplo-transformacao-er-relacional-heranca.dia) <br>
 * normalização
 * dcl
 
 &nbsp;
+[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./11_aula)
 ## [./1_introducao](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./1_introducao) <br>
 [1_introducao.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./1_introducao/1_introducao.md) <br>
 [chuva.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./1_introducao/chuva.sql) <br>
@@ -124,10 +126,12 @@ https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iob
 * continuação Lista 1 
 
 
+[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./3_aula)
 [spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./3_aula/spotify_limitado.sql) <br>
 [exemplo_jdbc](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./3_aula/exemplo_jdbc) <br>
 ## [./4_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./4_aula) <br>
 Continuação Lista 1
+[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./4_aula)
 [spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./4_aula/spotify_limitado.sql) <br>
 ## [./5_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./5_aula) <br>
 **Cronograma:**
@@ -162,6 +166,7 @@ Continuação Lista 1
 
 
 
+[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./5_aula)
 [spotify_limitado.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./5_aula/spotify_limitado.sql) <br>
 [trabalho1.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./5_aula/trabalho1.sql) <br>
 ## [./6_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./6_aula) <br>
@@ -230,6 +235,7 @@ Continuação Lista 1
 **Exemplo Código:**
 
 
+[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./6_aula)
 [joelho](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./6_aula/joelho) <br>
 ## [./7_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./7_aula) <br>
 [dao_jdbc.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./7_aula/dao_jdbc.pdf) <br>
@@ -441,6 +447,7 @@ SELECT lo_unlink(32784);
 **2) Integrar com a aplicação Java/JDBC**
 
 &nbsp;
+[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./7_aula)
 [joelho](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./7_aula/joelho) <br>
 ## [./8_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./8_aula) <br>
 [aula2705.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./8_aula/aula2705.sql) <br>
@@ -451,6 +458,7 @@ SELECT lo_unlink(32784);
 
 
 &nbsp;
+[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./8_aula)
 [anotacao](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./8_aula/anotacao) <br>
 ## [./9_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./9_aula) <br>
 [exemplo-transformacao-er-relacional-heranca.dia](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./9_aula/exemplo-transformacao-er-relacional-heranca.dia) <br>
@@ -464,6 +472,7 @@ SELECT lo_unlink(32784);
 
 
 &nbsp;
+[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./9_aula)
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
 [dicas.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./dicas/dicas.md) <br>
 ## [./setup](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./setup) <br>
@@ -492,3 +501,4 @@ SELECT lo_unlink(32784);
 * [Playlist com vídeos sobre JDBC, DAO e ORM](https://youtube.com/playlist?list=PLvT8P1q6jMWf_Epq_VhCgupInovZGdSZ-&si=YWavfUkW4eWIn3U6)
 
  
+[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./videos)

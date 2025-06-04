@@ -98,4 +98,4 @@ Essa abordagem suporta 100% de:
 
 https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/10_aula
 
-&nbsp;
+&nbsp;[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./10_aula)

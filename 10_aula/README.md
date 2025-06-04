@@ -1,7 +1,3 @@
-### Cronograma
-
-![cronograma](cronograma.png)
-
 ### Herança de Tabelas PostgreSQL
 
 #### ✅ O que é herdado pelas tabelas filhas (`INHERITS`) no PostgreSQL?

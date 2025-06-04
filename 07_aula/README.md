@@ -206,4 +206,4 @@ SELECT lo_unlink(32784);
 **2) Integrar com a aplicação Java/JDBC**
 
 &nbsp;
-[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./7_aula)
+[Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./07_aula)

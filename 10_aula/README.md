@@ -96,5 +96,6 @@ Essa abordagem suporta 100% de:
 * Índices ✅
 * Integridade forte e controle total ✅
 
+https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/10_aula
 
 &nbsp;

@@ -24,7 +24,7 @@ No entanto, para a maioria das bases de dados, a aplicação até a 3FN é sufic
 
 A tabela **tbPedido** será utilizada para demonstrar o processo de normalização.
 
-![image](https://github.com/user-attachments/assets/a712aab9-2082-49c0-a4b8-1fbc6581d134)
+![normalizacao1](imagens/normalizacao1.png)
 
 ## Primeira Forma Normal (1FN)
 
@@ -42,7 +42,8 @@ Os grupos repetidos de dados ocorrem quando uma tabela aparece dentro de outra t
 
 A figura abaixo mostra como ficaria o modelo original (não normalizado) após aplicarmos a 1FN.
 
-![image](https://github.com/user-attachments/assets/12ac376c-ce68-4108-bd2d-786b1e308951)
+![normalizacao1](imagens/normalizacao2.png)
+
 
 ## Segunda Forma Normal (2FN)
 
@@ -67,7 +68,7 @@ Para deixarmos o modelo na 2FN devemos:
 Como ficaria o modelo após aplicarmos a 2FN.
 
 
-![image](https://github.com/user-attachments/assets/36a3b79c-9623-4b4a-8df4-001f87454c15)
+![normalizacao1](imagens/normalizacao3.png)
 
 ## Terceira Forma Normal (3FN)
 
@@ -78,45 +79,16 @@ Uma tabela está na 3FN se estiver na 2FN e ela não possuir dependência transi
 Como no modelo do exemplo não existem dependências transitivas, ele já está na 3FN. No entanto, para entermos melhor dependências transitivas, vamos supor a situação da figura abaixo.
 
 
-![image](https://github.com/user-attachments/assets/bb6a1b6c-5a02-458d-af9d-11210e294299)
+![normalizacao1](imagens/normalizacao4.png)
+
 
 
 A tabela da figura está na 1FN porque todos os seus atributos são atômicos e está na 2FN porque não tem chave primária composta. No entanto, temos uma dependência transitiva que ocorre com o atributo **nome_gerente** que depende do atributo **codigo_gerente** que não é chave e nem faz parte da chave primária.
 
 Para eliminar dependências transitivas, deve-se criar uma nova tabela que irá conter o atributo que depende (ex: **nome_gerente**) mais o atributo do qual ele é dependente (ex: **codigo_gerente**). A figura abaixo mostra como ficaria o modelo.
 
-![image](https://github.com/user-attachments/assets/dc731f58-3564-47a8-96d0-f70b6042ec69)
-
+![normalizacao1](imagens/normalizacao5.png)
 
 É interessante sempre aplicarmos as três formas normais ao nosso modelo relacional antes de implementar esse modelo no SGBD.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

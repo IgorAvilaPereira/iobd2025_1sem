@@ -472,12 +472,15 @@ Essa abordagem suporta 100% de:
 &nbsp;
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./11_aula)
 ## [./12_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./12_aula) <br>
-[11_normalizacao_material_complementar.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/11_normalizacao_material_complementar.pdf) <br>
-[11normalizacao.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/11normalizacao.md) <br>
-[aula_08-formas_normais_1FN-2FN.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/aula_08-formas_normais_1FN-2FN.pdf) <br>
-[lista4_gabarito.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/lista4_gabarito.sql) <br>
+[lista_dcl_gabarito.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/lista_dcl_gabarito.sql) <br>
+[lista_dcl.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/lista_dcl.md) <br>
+[normalizacao_material_complementar.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/normalizacao_material_complementar.pdf) <br>
+[normalizacao.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/normalizacao.md) <br>
+[normalizacao_resumo.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/normalizacao_resumo.md) <br>
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/12_aula)
 &nbsp;
+[imagens](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/imagens) <br>
+[slides_normalizacao](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/slides_normalizacao) <br>
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
 [dicas.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./dicas/dicas.md) <br>
 ## [./setup](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./setup) <br>

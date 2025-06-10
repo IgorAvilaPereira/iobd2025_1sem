@@ -98,7 +98,7 @@ d) **Adicionar um novo comentário no JSONB de avaliação de um curso.**
 
 * Script SQL de criação e inserção.
 * Código Java com JDBC.
-* Relatório com imagens, prints e explicações.
+* Relatório/README.md com imagens, prints e explicações (quais dependências, como executa, como roda e etc.).
 
 ---
 

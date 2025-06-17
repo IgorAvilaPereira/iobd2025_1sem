@@ -107,7 +107,4 @@ ALTER DEFAULT PRIVILEGES IN SCHEMA public
 | joao    | `escritor_vendas` | Leitura e escrita (sem DELETE ou criação)  |
 | ana     | `leitor_vendas`   | Apenas leitura                             |
 
----
-
-Se quiser, posso te dar os comandos prontos para rodar tudo de uma vez em um script `.sql`. Quer isso?
 

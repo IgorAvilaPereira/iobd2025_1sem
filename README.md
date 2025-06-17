@@ -501,8 +501,10 @@ GRANT SELECT ON ALL TABLES IN SCHEMA public to elon_musk;
 * wikibooks.org
 
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/12_aula)
-
 &nbsp;
+
+
+
 [dcl](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/dcl) <br>
 [imagens](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/imagens) <br>
 [normalizacao](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/normalizacao) <br>

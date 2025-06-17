@@ -6,15 +6,14 @@
    
   * Ex: 
 
-![normalizacao_resumo1](imagens/normalizacao_resumo1.png)
+![normalizacao_resumo1](./../imagens/normalizacao_resumo1.png)
 
   * **O atributo nome_produto tem uma dependência funcional parcial, porque depende apenas de parte da chave primária, ou seja, depende apenas do codigo_produto.** Logo, temos um problema no modelo relacional já que a 2FN não está sendo respeitada.
 
 * **3FN** - Há alguma **Dependência Funcional Transitiva**? Na tabela há uma coluna não-chave que identica outra coluna não-chave?
 
   * Ex: 
-![normalizacao_resumo1](imagens/normalizacao_resumo2.png)
-
+![normalizacao_resumo1](./../imagens/normalizacao_resumo2.png)
 
 
   * Ocorre dependência funcional transitiva com o atributo **nome_gerente** que depende do atributo **codigo_gerente** que não é chave e nem faz parte da chave primária.

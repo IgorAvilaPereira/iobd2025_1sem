@@ -472,6 +472,7 @@ Essa abordagem suporta 100% de:
 &nbsp;
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./11_aula)
 ## [./12_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./12_aula) <br>
+[proposta_exercicio.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/proposta_exercicio.md) <br>
 **Exemplos:**
 
 ```sql

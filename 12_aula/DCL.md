@@ -62,7 +62,7 @@ REVOKE SELECT ON tabela_exemplo FROM joao;
 #### 4. Conceder uso de schema
 
 ```sql
-GRANT USAGE ON SCHEMA publico TO joao;
+GRANT USAGE ON SCHEMA public TO joao;
 ```
 
 #### 5. Tornar um usuário um superusuário (com muito cuidado!)
@@ -144,7 +144,7 @@ GRANT CONNECT ON DATABASE vendas TO ana;
 ### 🧱 6. Permissões em schemas
 
 ```sql
-GRANT USAGE ON SCHEMA publico TO ana;
+GRANT USAGE ON SCHEMA public TO ana;
 ```
 
 > Permite que `ana` use objetos dentro do schema `public`.
@@ -158,8 +158,8 @@ GRANT USAGE ON SCHEMA publico TO ana;
 ```sql
 CREATE ROLE somente_leitura;
 GRANT CONNECT ON DATABASE vendas TO somente_leitura;
-GRANT USAGE ON SCHEMA publico TO somente_leitura;
-GRANT SELECT ON ALL TABLES IN SCHEMA publico TO somente_leitura;
+GRANT USAGE ON SCHEMA public TO somente_leitura;
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO somente_leitura;
 ```
 
 #### Atribuir essa role a um usuário:

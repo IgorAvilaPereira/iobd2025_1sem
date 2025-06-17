@@ -473,6 +473,7 @@ Essa abordagem suporta 100% de:
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./11_aula)
 ## [./12_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./12_aula) <br>
 [dcl.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/dcl.md) <br>
+[DCL.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/DCL.md) <br>
 [DCL.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/DCL.pdf) <br>
 [lista_dcl.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/lista_dcl.md) <br>
 [normalizacao.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/normalizacao.md) <br>

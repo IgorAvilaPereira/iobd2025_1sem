@@ -472,6 +472,7 @@ Essa abordagem suporta 100% de:
 &nbsp;
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./11_aula)
 ## [./12_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./12_aula) <br>
+[exemplo.sql](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/exemplo.sql) <br>
 [novo_cronograma.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/novo_cronograma.md) <br>
 **Exemplos:**
 
@@ -504,6 +505,7 @@ GRANT SELECT ON ALL TABLES IN SCHEMA public to elon_musk;
 
 
 [dcl](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/dcl) <br>
+[demo](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/demo) <br>
 [exercicios](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/exercicios) <br>
 [imagens](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/imagens) <br>
 [normalizacao](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/normalizacao) <br>

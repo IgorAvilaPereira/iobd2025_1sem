@@ -24,7 +24,7 @@ No entanto, para a maioria das bases de dados, a aplicação até a 3FN é sufic
 
 A tabela **tbPedido** será utilizada para demonstrar o processo de normalização.
 
-![normalizacao1](imagens/normalizacao1.png)
+![normalizacao1](./../imagens/normalizacao1.png)
 
 ## Primeira Forma Normal (1FN)
 
@@ -42,7 +42,7 @@ Os grupos repetidos de dados ocorrem quando uma tabela aparece dentro de outra t
 
 A figura abaixo mostra como ficaria o modelo original (não normalizado) após aplicarmos a 1FN.
 
-![normalizacao1](imagens/normalizacao2.png)
+![normalizacao1](./../imagens/normalizacao2.png)
 
 
 ## Segunda Forma Normal (2FN)
@@ -68,7 +68,7 @@ Para deixarmos o modelo na 2FN devemos:
 Como ficaria o modelo após aplicarmos a 2FN.
 
 
-![normalizacao1](imagens/normalizacao3.png)
+![normalizacao1](./../imagens/normalizacao3.png)
 
 ## Terceira Forma Normal (3FN)
 
@@ -79,7 +79,7 @@ Uma tabela está na 3FN se estiver na 2FN e ela não possuir dependência transi
 Como no modelo do exemplo não existem dependências transitivas, ele já está na 3FN. No entanto, para entermos melhor dependências transitivas, vamos supor a situação da figura abaixo.
 
 
-![normalizacao1](imagens/normalizacao4.png)
+![normalizacao1](./../imagens/normalizacao4.png)
 
 
 
@@ -87,7 +87,7 @@ A tabela da figura está na 1FN porque todos os seus atributos são atômicos e 
 
 Para eliminar dependências transitivas, deve-se criar uma nova tabela que irá conter o atributo que depende (ex: **nome_gerente**) mais o atributo do qual ele é dependente (ex: **codigo_gerente**). A figura abaixo mostra como ficaria o modelo.
 
-![normalizacao1](imagens/normalizacao5.png)
+![normalizacao1](./../imagens/normalizacao5.png)
 
 É interessante sempre aplicarmos as três formas normais ao nosso modelo relacional antes de implementar esse modelo no SGBD.
 

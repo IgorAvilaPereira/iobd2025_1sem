@@ -27,5 +27,7 @@ GRANT SELECT ON ALL TABLES IN SCHEMA public to elon_musk;
 * wikibooks.org
 
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/12_aula)
-
 &nbsp;
+
+
+

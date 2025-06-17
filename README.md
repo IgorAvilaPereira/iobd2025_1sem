@@ -472,14 +472,6 @@ Essa abordagem suporta 100% de:
 &nbsp;
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./11_aula)
 ## [./12_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./12_aula) <br>
-[DCL_dica_sequencia.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/DCL_dica_sequencia.md) <br>
-[dcl_exemplo.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/dcl_exemplo.md) <br>
-[dcl.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/dcl.md) <br>
-[DCL.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/DCL.md) <br>
-[DCL.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/DCL.pdf) <br>
-[lista_dcl.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/lista_dcl.md) <br>
-[normalizacao.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/normalizacao.md) <br>
-[normalizacao_resumo.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/normalizacao_resumo.md) <br>
 **Exemplos:**
 
 ```sql
@@ -511,8 +503,9 @@ GRANT SELECT ON ALL TABLES IN SCHEMA public to elon_musk;
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/12_aula)
 
 &nbsp;
+[dcl](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/dcl) <br>
 [imagens](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/imagens) <br>
-[slides_normalizacao](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/slides_normalizacao) <br>
+[normalizacao](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/normalizacao) <br>
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
 [dicas.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./dicas/dicas.md) <br>
 ## [./setup](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./setup) <br>

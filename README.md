@@ -493,7 +493,7 @@ GRANT SELECT ON ALL TABLES IN SCHEMA public to elon_musk;
 
 **Material Complementar:**
 
-* :important https://www.devmedia.com.br/gerenciando-usuarios-e-permissoes-no-postgresql/14301
+* :fire: https://www.devmedia.com.br/gerenciando-usuarios-e-permissoes-no-postgresql/14301
 
 * https://phoenixnap.com/kb/postgres-create-user
 

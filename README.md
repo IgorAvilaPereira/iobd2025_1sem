@@ -475,7 +475,6 @@ Essa abordagem suporta 100% de:
 [dcl.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/dcl.md) <br>
 [DCL.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/DCL.pdf) <br>
 [lista_dcl.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/lista_dcl.md) <br>
-[normalizacao_material_complementar.pdf](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/normalizacao_material_complementar.pdf) <br>
 [normalizacao.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/normalizacao.md) <br>
 [normalizacao_resumo.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/normalizacao_resumo.md) <br>
 * https://phoenixnap.com/kb/postgres-create-user

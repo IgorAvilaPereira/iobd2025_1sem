@@ -472,6 +472,7 @@ Essa abordagem suporta 100% de:
 &nbsp;
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./11_aula)
 ## [./12_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./12_aula) <br>
+[DCL_dica_sequencia.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/DCL_dica_sequencia.md) <br>
 [dcl_exemplo.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/dcl_exemplo.md) <br>
 [dcl.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/dcl.md) <br>
 [DCL.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/DCL.md) <br>

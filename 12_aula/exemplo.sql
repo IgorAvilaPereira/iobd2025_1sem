@@ -1,0 +1,34 @@
+DROP DATABASE IF EXISTS exemplo;
+
+CREATE DATABASE exemplo;
+
+\c exemplo;
+
+CREATE TABLE pessoa (
+    id serial primary key,
+    nome text,
+    telefones text[]
+);
+INSERT INTO pessoa (nome, telefones) VALUES ('IGOR', array['5344444', '21342345345']);
+
+DROP ROLE tony;
+DROP ROLE maria;
+CREATE ROLE tony LOGIN PASSWORD '111';
+CREATE ROLE maria LOGIN PASSWORD '222';
+GRANT CONNECT ON DATABASE exemplo TO tony, maria;
+GRANT USAGE ON SCHEMA public TO tony, maria;
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO tony;
+GRANT USAGE, SELECT ON SEQUENCE pessoa_id_seq TO tony;
+GRANT SELECT, INSERT, UPDATE ON ALL TABLES IN SCHEMA public TO maria;
+GRANT USAGE, SELECT ON SEQUENCE pessoa_id_seq TO maria;
+CREATE ROLE visu LOGIN PASSWORD '111' SUPERUSER;
+REVOKE UPDATE ON pessoa FROM maria;
+
+CREATE ROLE gustavo LOGIN PASSWORD '222' IN ROLE maria;
+
+
+CREATE ROLE vai_expirar LOGIN PASSWORD '111' CONNECTION LIMIT 2;
+GRANT CONNECT ON DATABASE exemplo TO vai_expirar;
+
+
+

@@ -2,7 +2,7 @@
 
 * 17/06 - NORMALIZAÇÃO/DCL 
 
-* 24/06 - NORMALIZAÇÃO/DCL
+* 24/06 - Exercícios - NORMALIZAÇÃO/DCL
 
 * 01/07 - ATENDIMENTO TRABALHO 2 (pra ser enviado no siga). presença opcional
 

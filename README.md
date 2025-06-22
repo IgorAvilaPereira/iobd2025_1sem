@@ -488,8 +488,6 @@ GRANT SELECT ON ALL TABLES IN SCHEMA public to elon_musk;
 
 **Material Complementar:**
 
-* :fire: https://www.devmedia.com.br/gerenciando-usuarios-e-permissoes-no-postgresql/14301
-
 * https://phoenixnap.com/kb/postgres-create-user
 
 * https://sqlserverguides.com/postgresql-create-user-with-password/
@@ -510,6 +508,8 @@ GRANT SELECT ON ALL TABLES IN SCHEMA public to elon_musk;
 [normalizacao](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/normalizacao) <br>
 ## [./13_exercicios_dcl_normalizacao_jdbc](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./13_exercicios_dcl_normalizacao_jdbc) <br>
 [proposta_exercicio.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./13_exercicios_dcl_normalizacao_jdbc/proposta_exercicio.md) <br>
+* :fire: https://www.devmedia.com.br/gerenciando-usuarios-e-permissoes-no-postgresql/14301
+
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/13_exercicios_dcl_normalizacao_jdbc)
 &nbsp;
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>

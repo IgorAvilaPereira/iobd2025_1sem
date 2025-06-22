@@ -510,6 +510,7 @@ GRANT SELECT ON ALL TABLES IN SCHEMA public to elon_musk;
 [imagens](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/imagens) <br>
 [normalizacao](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./12_aula/normalizacao) <br>
 ## [./13_exercicios_dcl_normalizacao_jdbc](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./13_exercicios_dcl_normalizacao_jdbc) <br>
+[proposta_exercicio.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./13_exercicios_dcl_normalizacao_jdbc/proposta_exercicio.md) <br>
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/13_exercicios_dcl_normalizacao_jdbc)
 &nbsp;
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>

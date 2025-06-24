@@ -8,7 +8,26 @@ import java.sql.SQLException;
 import negocio.Cliente;
 
 public class ClienteDAO {
-    
+
+    public Cliente obter(int id) throws SQLException{
+        Cliente cliente = new Cliente();
+        String sql = "SELECT * FROM cliente where id = ?;";
+         ConexaoPostgreSQL conexaoPostgreSQL = new ConexaoPostgreSQL();
+        Connection connection = conexaoPostgreSQL.getConexao();
+        PreparedStatement preparedStatement = connection.prepareStatement(sql);
+        preparedStatement.setInt(1, id);
+        ResultSet rs = preparedStatement.executeQuery();
+        if (rs.next()) {
+            cliente.setId(rs.getInt("id"));
+            cliente.setNome(rs.getString("nome"));
+            cliente.setEmail(rs.getString("email"));
+        }
+        preparedStatement.close();
+        connection.close();
+        return cliente;
+
+    }
+
     public boolean deletar(String email) throws SQLException {
         String sql = "DELETE FROM cliente WHERE email = trim(?);";
         ConexaoPostgreSQL conexaoPostgreSQL = new ConexaoPostgreSQL();

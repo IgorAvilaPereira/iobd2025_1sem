@@ -7,4 +7,28 @@ public class Pedido {
     private LocalDateTime dataHora;
     private Cliente cliente;
 
+    public Pedido(Cliente cliente) {
+        this.cliente = cliente;
+    }
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
+    public LocalDateTime getDataHora() {
+        return dataHora;
+    }
+    public void setDataHora(LocalDateTime dataHora) {
+        this.dataHora = dataHora;
+    }
+    public Cliente getCliente() {
+        return cliente;
+    }
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
+    
+
 }

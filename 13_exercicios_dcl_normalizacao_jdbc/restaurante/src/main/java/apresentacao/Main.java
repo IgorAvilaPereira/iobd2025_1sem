@@ -16,6 +16,8 @@ public class Main {
         // clienteDAO.inserir(betito);
         // System.out.println(betito.getId());
         // clienteDAO.deletar("igor.pereira@riogrande.ifrs.edu.br");
-        new PedidoDAO().inserir(new Pedido(new ClienteDAO().obter(1)));        
+        // new PedidoDAO().inserir(new Pedido(new ClienteDAO().obter(1))); 
+        
+        new PedidoDAO().listar(1).forEach(p -> System.out.println(p));
     }
 }

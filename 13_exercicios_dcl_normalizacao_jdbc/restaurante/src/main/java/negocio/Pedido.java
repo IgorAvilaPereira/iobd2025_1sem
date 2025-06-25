@@ -10,6 +10,7 @@ public class Pedido {
     public Pedido(Cliente cliente) {
         this.cliente = cliente;
     }
+    
     public int getId() {
         return id;
     }
@@ -27,6 +28,11 @@ public class Pedido {
     }
     public void setCliente(Cliente cliente) {
         this.cliente = cliente;
+    }
+
+    @Override
+    public String toString() {
+        return "Pedido [id=" + id + ", dataHora=" + dataHora + ", cliente=" + cliente + "]";
     }
 
     

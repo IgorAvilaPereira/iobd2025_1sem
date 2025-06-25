@@ -21,13 +21,14 @@ public class PedidoDAO {
         PreparedStatement preparedStatement = connection.prepareStatement(sql);
         preparedStatement.setInt(1, cliente_id);
         ResultSet rs = preparedStatement.executeQuery();
-        
+        Cliente cliente = null;
         while (rs.next()) {
-            Cliente cliente = new Cliente();
-            cliente.setId(rs.getInt("cliente_id"));
-            cliente.setEmail(rs.getString("email"));
-            cliente.setNome(rs.getString("nome"));
-
+            if (cliente == null) {
+                cliente = new Cliente();
+                cliente.setId(rs.getInt("cliente_id"));
+                cliente.setEmail(rs.getString("email"));
+                cliente.setNome(rs.getString("nome"));
+            }
             Pedido pedido = new Pedido(cliente);
             pedido.setId(rs.getInt("pedido_id"));
             pedido.setDataHora(rs.getTimestamp("data_hora").toLocalDateTime());

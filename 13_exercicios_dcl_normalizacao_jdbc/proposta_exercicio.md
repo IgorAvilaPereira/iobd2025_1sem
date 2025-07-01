@@ -72,7 +72,7 @@ Criação de um usuário `usuario_app` com permissões restritas:
 CREATE USER usuario_app WITH PASSWORD 'senha123';
 
 -- Permissões nas tabelas
-GRANT CONNECT ON DATABASE pedidosdb TO usuario_app;
+GRANT CONNECT ON DATABASE restaurante TO usuario_app;
 GRANT USAGE ON SCHEMA public TO usuario_app;
 GRANT SELECT, INSERT, UPDATE ON cliente, produto, pedido, item_pedido TO usuario_app;
 

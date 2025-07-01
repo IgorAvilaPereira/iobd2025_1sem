@@ -526,7 +526,7 @@ GRANT SELECT ON ALL TABLES IN SCHEMA public to elon_musk;
 * UUID
 * VIEWS
 * SCHEMAS
-* JSON
+* Manipulação JSON com PostgreSQL 
 * BLOB's (Bytea) e Manipulação de Bytes com Java
 * Normalização
 * Herança de Tabelas com o PostgreSQL

@@ -514,8 +514,40 @@ GRANT SELECT ON ALL TABLES IN SCHEMA public to elon_musk;
 &nbsp;
 [restaurante](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./13_exercicios_dcl_normalizacao_jdbc/restaurante) <br>
 ## [./14_atendimento_trabalho2_continuacao_exercicios](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./14_atendimento_trabalho2_continuacao_exercicios) <br>
+**O que pode cair na Atividade Avaliada 2:**
+
+* Modelo Relacional
+* SQL
+    * DML
+    * DQL
+    * DCL
+    * DDL
+* PSQL
+* UUID
+* VIEWS
+* SCHEMAS
+* JSON
+* BLOB's (Bytea) e Manipulação de Bytes com Java
+* Normalização
+* Herança de Tabelas com o PostgreSQL
+* Orientação a Objetos
+* Java JDBC
+* Noções de ORM 
+* Padrão Arquitetural de Persistência - DAO
+
+
+
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/14_atendimento_trabalho2_continuacao_exercicios)
 &nbsp;
+## [./6_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./6_aula) <br>
+[*.*](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./6_aula/*.*) <br>
+[joelho](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./6_aula/joelho) <br>
+## [./7_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./7_aula) <br>
+[*.*](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./7_aula/*.*) <br>
+[joelho](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./7_aula/joelho) <br>
+## [./8_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./8_aula) <br>
+[*.*](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./8_aula/*.*) <br>
+[anotacao](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./8_aula/anotacao) <br>
 ## [./dicas](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./dicas) <br>
 [dicas.md](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./dicas/dicas.md) <br>
 ## [./setup](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./setup) <br>

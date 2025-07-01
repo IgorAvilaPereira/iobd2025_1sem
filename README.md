@@ -514,6 +514,7 @@ GRANT SELECT ON ALL TABLES IN SCHEMA public to elon_musk;
 &nbsp;
 [restaurante](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./13_exercicios_dcl_normalizacao_jdbc/restaurante) <br>
 ## [./14_atendimento_trabalho2_continuacao_exercicios](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./14_atendimento_trabalho2_continuacao_exercicios) <br>
+[esboco_de_um_gerador_de_inserts.sh](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./14_atendimento_trabalho2_continuacao_exercicios/esboco_de_um_gerador_de_inserts.sh) <br>
 **O que pode cair na Atividade Avaliada 2:**
 
 * Modelo Relacional

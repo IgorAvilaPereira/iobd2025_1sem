@@ -540,6 +540,7 @@ GRANT SELECT ON ALL TABLES IN SCHEMA public to elon_musk;
 [Baixar todo o material da aula](https://download-directory.github.io/?url=http://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/14_atendimento_trabalho2_continuacao_exercicios)
 &nbsp;
 [joelho](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./14_atendimento_trabalho2_continuacao_exercicios/joelho) <br>
+[restaurante](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./14_atendimento_trabalho2_continuacao_exercicios/restaurante) <br>
 ## [./6_aula](https://github.com/IgorAvilaPereira/iobd2025_1sem/tree/main/./6_aula) <br>
 [*.*](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./6_aula/*.*) <br>
 [joelho](https://github.com/IgorAvilaPereira/iobd2025_1sem/blob/main/./6_aula/joelho) <br>
